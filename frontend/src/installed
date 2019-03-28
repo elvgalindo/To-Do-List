@@ -1,0 +1,14 @@
+1. download brew if not have it
+2. brew install mongodb
+    mongo to find the version
+3. brew services start => start mongodb
+4. install node
+    node -v  to find the version
+5. go to folder
+6. npm init-y
+    gets the package.json
+7. npm install graphql-yoga (graphql server)
+8. create index.js
+9. to iniciate node index.js
+10. install mongoose
+11. install material-ui or boorstrap
