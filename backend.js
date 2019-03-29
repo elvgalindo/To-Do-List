@@ -3,7 +3,7 @@ const { GraphQLServer } = require('graphql-yoga')
 //install mongoose => this will connnect to the database
 const mongoose = require("mongoose")
 //link to database 
-mongoose.connect('mongodb+srv://elvingalindo:Guateus17@cluster0-nm87b.mongodb.net/test?retryWrites=true', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://elvingalindo:<password>@cluster0-nm87b.mongodb.net/test?retryWrites=true', { useNewUrlParser: true })
 //create a schema fields that we will have and their type
 const Todo = mongoose.model("Todo", {
     text: String,
